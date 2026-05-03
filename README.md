@@ -167,7 +167,7 @@ Scan complete. 0 open ports found out of 6 scanned.
 - Pasindu Gunawardhana
 - Jathya Nethmina
 - Maleesha Anuradha
-- Aqueel Ashfaaq
+- Aqeel Ashfaaq
 
 ## License
 
