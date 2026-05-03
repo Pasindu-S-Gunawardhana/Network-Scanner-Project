@@ -1,6 +1,6 @@
 # Network Scanner Project
 
-HNDNE251F-NDP-CW
+HNDNE251F-NDP-Course_work
 
 A high-performance, multi-threaded TCP port scanner written in Python for scanning CIDR subnets and individual hosts.
 
