@@ -12,7 +12,7 @@ A high-performance, multi-threaded TCP port scanner written in Python for scanni
 - **Multiple Output Formats**: Save results to CSV or JSON files
 - **Progress Tracking**: Real-time progress display during scanning
 - **Banner Grabbing**: Attempt to retrieve service banners from open ports
-- **Error Handling**: Graceful handling of network errors and interruptions
+- **Error Handling**: Graceful handling of network errors and interruptions.
 - **Hostname Resolution**: Support for scanning hostnames (resolved to IP addresses)
 
 ## Requirements
