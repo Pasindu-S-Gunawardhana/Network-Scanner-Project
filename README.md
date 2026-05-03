@@ -8,7 +8,7 @@ A high-performance, multi-threaded TCP port scanner written in Python for scanni
 
 - **CIDR Support**: Scan entire subnets using CIDR notation (e.g., 192.168.1.0/24)
 - **Flexible Port Scanning**: Support for individual ports, port ranges, and combinations
-- **Multi-threaded**: High-performance scanning using configurable thread pools
+- **Multi-threaded**: High-performance scanning using configurable thread pools.
 - **Multiple Output Formats**: Save results to CSV or JSON files
 - **Progress Tracking**: Real-time progress display during scanning
 - **Banner Grabbing**: Attempt to retrieve service banners from open ports
