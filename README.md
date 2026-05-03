@@ -128,8 +128,11 @@ Scan complete. 0 open ports found out of 6 scanned.
 
 - **Thread Count**: Higher thread counts improve speed but may overwhelm the network or trigger rate limiting
 - **Timeout**: Lower timeouts speed up scanning but may miss slow-responding services
-- **Port Ranges**: Large port ranges (e.g., 1-65535) on large subnets can take significant time
+- **Port Ranges**: Large port ranges (e.g; 1-65535) on large subnets can take significant time
 - **Network Impact**: Scanning may be detected by intrusion detection systems
+- **Protocol Choice**: TCP scans are generally faster and more reliable due to connection-based responses, while UDP scans are slower and may require longer
+                       timeouts and retries because they often receive no response even when ports are open
+
 
 ## Error Handling
 
