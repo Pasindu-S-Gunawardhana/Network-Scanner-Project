@@ -4,9 +4,9 @@ HNDNE251F-NDP-Course_work
 
 A high-performance, multi-threaded TCP port scanner written in Python for scanning CIDR subnets and individual hosts.
 
-## Warning
-Use this tool only on networks you own or have permission to test.
-Unauthorized scanning may be illegal.
+## Security Notice
+
+This tool is intended for authorized network reconnaissance and security testing only. Ensure you have permission to scan target networks. Unauthorized scanning may violate laws and terms of service.
 
 ## Features
 
@@ -134,9 +134,7 @@ Scan complete. 0 open ports found out of 6 scanned.
 - Keyboard interrupts (Ctrl+C) allow clean termination with partial results
 - Hostname resolution failures are reported
 
-## Security Notice
 
-This tool is intended for authorized network reconnaissance and security testing only. Ensure you have permission to scan target networks. Unauthorized scanning may violate laws and terms of service.
 
 ## Troubleshooting
 
