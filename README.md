@@ -93,10 +93,12 @@ ip,port,open,banner
 ```
 
 ## Example Output
+```
 [OPEN] 192.168.1.1:22 (SSH)
 [OPEN] 192.168.1.1:80 (HTTP)
 
 Scan complete. 2 open ports found.
+```
 
 ### JSON Output
 ```json
@@ -116,9 +118,11 @@ Scan complete. 2 open ports found.
 ]
 ```
 ## Example Output
+```
 [6/6] 192.168.1.1:25 -> closed
 Results saved to scan_results.json
 Scan complete. 0 open ports found out of 6 scanned.
+```
 
 ## Performance Considerations
 
