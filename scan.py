@@ -165,7 +165,6 @@ def parse_args():
     parser.add_argument("--version", action="version", version="Network Scanner 1.0")
     return parser.parse_args()
 
-
 def main():
     args = parse_args()
 
