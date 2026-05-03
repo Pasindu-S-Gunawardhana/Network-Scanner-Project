@@ -167,6 +167,8 @@ def parse_args():
 
 def main():
     args = parse_args()
+    import time
+    start_time = time.time()
 
     try:
         ports = parse_ports(args.ports)
@@ -208,6 +210,8 @@ def main():
     open_count = sum(1 for r in results if r[2])
     total = len(results)
     print(f"Scan complete. {open_count} open ports found out of {total} scanned.")
+    end_time = time.time()
+    print(f"\nScan completed in {round(end_time - start_time, 2)} seconds")
 
 if __name__ == "__main__":
     main()
