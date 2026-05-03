@@ -4,6 +4,10 @@ HNDNE251F-NDP-Course_work
 
 A high-performance, multi-threaded TCP port scanner written in Python for scanning CIDR subnets and individual hosts.
 
+## Warning
+Use this tool only on networks you own or have permission to test.
+Unauthorized scanning may be illegal.
+
 ## Features
 
 - **CIDR Support**: Scan entire subnets using CIDR notation (e.g., 192.168.1.0/24)
@@ -88,6 +92,12 @@ ip,port,open,banner
 192.168.1.1,80,yes,<html>
 ```
 
+## Example Output
+[OPEN] 192.168.1.1:22 (SSH)
+[OPEN] 192.168.1.1:80 (HTTP)
+
+Scan complete. 2 open ports found.
+
 ### JSON Output
 ```json
 [
@@ -146,6 +156,12 @@ This tool is intended for authorized network reconnaissance and security testing
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
+
+## Contributors
+- Pasindu Gunawardhana
+- Jathya Nethmina
+- Maleesha Anuradha
+- Aqueel Ashfaaq
 
 ## License
 
