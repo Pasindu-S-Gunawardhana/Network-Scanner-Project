@@ -136,10 +136,11 @@ Scan complete. 0 open ports found out of 6 scanned.
 
 ## Error Handling
 
-- Invalid targets or port specifications are caught and reported
-- Network errors during scanning are handled gracefully
-- Keyboard interrupts (Ctrl+C) allow clean termination with partial results
-- Hostname resolution failures are reported
+- **Input Validation**: Invalid targets or port specifications are detected early and reported to prevent wasted scanning time.
+- **Network errors**: Connection issues during scanning are handled gracefully, with appropriate logging or limited retries without crashing the process.
+- **Interrupt Handling**: Keyboard interrupts (Ctrl+C) allow clean termination with partial results.
+- **Hostname Resolution**: DNS resolution failures are identified and reported clearly.
+- **Timeout & Retry Handling**: Unresponsive hosts or ports are managed with controlled timeouts and retry limits to balance accuracy and performance.
 
 
 
